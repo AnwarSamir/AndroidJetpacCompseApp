@@ -12,16 +12,18 @@
         <activity
             android:name=".ui.LoginActivity"
             android:label="@string/title_activity_login"
-            android:theme="@style/Theme.AndroidJetpacCompseApp.NoActionBar"></activity>
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
             android:theme="@style/Theme.AndroidJetpacCompseApp.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AndroidJetpacCompseApp.NoActionBar">
+
         </activity>
     </application>
 
